@@ -45,19 +45,19 @@ span {
     width: 30px;
 }
 
-#instructions, .btn {
+.btn {
     border-radius: 10px;
 	width: fit-content;
 	padding: 10px 20px;
     margin: 20px auto auto;
 }
 
-/* 
-a {
-	text-decoration: none;
-	font-size: 20px;
-	padding: 10px;
-    float: left;
+#instructions {
     border-radius: 10px;
+	width: fit-content;
+	padding: 10px 20px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
 }
- */
