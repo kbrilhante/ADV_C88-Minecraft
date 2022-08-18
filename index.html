@@ -17,6 +17,7 @@
     <script src="fabric.js"></script>
 </head>
 <body>
+
     <h1 class="btn-primary text-light text-uppercase">Minecraft</h1>
 
     <div id="cabecalho" class="btn-success text-light">
@@ -26,8 +27,13 @@
 
     <canvas width="1000" height="600" id="myCanvas"></canvas>
 
+    <p>
+        <button class="btn btn-danger h4" type="button" data-bs-toggle="collapse" data-bs-target="#instructions" aria-expanded="false" aria-controls="instructions">
+            Instruções
+        </button>
+    </p>
     <div class="collapse btn-danger" id="instructions">
-        <div class="card card-body">
+        <div class="card card-body text-danger">
             <div class="row">
                 <p class="col-4"><strong>B</strong> <img class="block" src="bricks.jpg"></p>
                 <p class="col-4"><strong>Y</strong> <img class="block" src="yellowBricks.png"></p>
@@ -41,12 +47,7 @@
             </div>
         </div>
     </div>
-    <p>
-        <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#instructions" aria-expanded="false" aria-controls="instructions">
-            Button with data-bs-target
-        </button>
-    </p>
-
+    
     <!-- script principal -->
     <script src="main.js"></script>
 </body>
