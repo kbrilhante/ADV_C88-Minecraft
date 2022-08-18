@@ -12,7 +12,7 @@ const playerHeight = 140;
 var playerObject = "";
 var blockImageObject = "";
 
-playerUpdate();
+// playerUpdate();
 
 function playerUpdate() {
     fabric.Image.fromURL("player.png", function(Img){
