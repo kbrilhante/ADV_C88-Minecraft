@@ -1,0 +1,20 @@
+    <div class="collapse btn-danger" id="instructions">
+        <div class="card card-body">
+            <div class="row">
+                <p class="col-4"><strong>B</strong> <img class="block" src="bricks.jpg"></p>
+                <p class="col-4"><strong>Y</strong> <img class="block" src="yellowBricks.png"></p>
+                <p class="col-4"><strong>D</strong> <img class="block" src="dirt.png"></p>
+                <p class="col-4"><strong>K</strong> <img class="block" src="darkGrass.png"></p>
+                <p class="col-4"><strong>L</strong> <img class="block" src="lightGrass.png"></p>
+                <p class="col-4"><strong>G</strong> <img class="block" src="glowstone.png"></p>
+                <p class="col-4"><strong>N</strong> <img class="block" src="netherrack.jpg"></p>
+                <p class="col-4"><strong>S</strong> <img class="block" src="stone.jpg"></p>
+                <p class="col-4"><strong>W</strong> <img class="block" src="wood.jpg"></p>
+            </div>
+        </div>
+    </div>
+    <p>
+        <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#instructions" aria-expanded="false" aria-controls="instructions">
+            Button with data-bs-target
+        </button>
+    </p>
