@@ -50,6 +50,10 @@ span {
 	width: fit-content;
 	padding: 10px 20px;
     margin: 20px auto auto;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
 }
 
 #instructions {
@@ -57,7 +61,11 @@ span {
 	width: fit-content;
 	padding: 10px 20px;
     position: fixed;
-    top: 10px;
+    top: 100px;
     left: 10px;
     z-index: 9999;
+}
+
+strong {
+    font-size: 20px;
 }
